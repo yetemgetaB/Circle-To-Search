@@ -2,10 +2,15 @@
 
 ## [Initial Release] - {PR_MERGE_DATE}
 
-- Added **Circle Screen to Search** command with interactive lasso/spotlight cutout selection and precision targeting reticle
-- Added transparent background cropping for freehand shapes so visual search focuses exclusively on the circled subject
-- Added **Search Clipboard Image** command to instantly search images from the clipboard
-- Added **Search Full Screen** command for instant whole-display visual searches
-- Added multi-engine support with Google Lens, Bing Visual Search, Yandex Images, TinEye, and Baidu
-- Added extension preference to configure the default search engine or open all engines simultaneously
-- Implemented zero-cost, ephemeral multi-host image uploading with automatic failover
+- Added **Circle Screen to Search** command featuring 4 interactive selection modes:
+  - ⭕ **Freeform (Lasso)**: Freehand drawing with live spotlight cutout and transparent background crop
+  - ⬛ **Rectangle**: Precision drag rectangle selection
+  - 🪟 **Window Auto-Detect**: Automatic Win32 DWM window border detection with one-click capture
+  - 🔲 **Element Auto-Detect**: UI Automation element snapping for buttons, cards, and images
+- Added **Alt / Tab / Space** hotkeys and number keys `1-4` to seamlessly toggle modes on the fly
+- Added a floating glassmorphism HUD pill displaying active selection mode
+- Added **Search Clipboard Image** command to instantly search clipboard images
+- Added **Search Full Screen** command for full-display capture
+- Added multi-engine support (Google Lens, Bing, Yandex, TinEye, Baidu, All Engines)
+- Added extension preference for default search engine
+- Polished 512x512 PNG app icon

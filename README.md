@@ -17,12 +17,20 @@
 
 ## 🌟 Overview
 
-**Circle to Search** lets you freely circle, loop, or highlight any object on your screen to search it instantly using your favorite visual search engine (Google Lens, Bing Visual Search, Yandex Images, TinEye, or Baidu).
+**Circle to Search** lets you freely circle, highlight, or select any object, window, or UI element on your screen to search it instantly using your favorite visual search engine (Google Lens, Bing Visual Search, Yandex Images, TinEye, or Baidu).
 
-### Key Highlights:
-- **⭕ Interactive Spotlight Cutout**: Dims the entire screen with a precision reticle cursor. As you draw around an object, the inside of your circle is dynamically illuminated in full brightness with a thin, crisp outline.
-- **✂️ True Background-less Cutout**: Pixels outside your freehand drawing are clipped with 100% transparent alpha so the search engine focuses exclusively on what you circled.
-- **🌐 Multi-Engine Support**: Switch seamlessly between Google Lens (default), Bing Visual Search, Yandex Images, TinEye, Baidu, or open all engines simultaneously.
+### 🎯 4 Intelligent Capture Modes (Switch with `Alt` / `Tab` or `1-4`):
+1. ⭕ **Freeform (Lasso)**: Freehand circling with live spotlight cutout. Non-selected background is cut out with 100% transparent alpha.
+2. ⬛ **Rectangle**: Classic click-and-drag box selection with illuminated interior preview.
+3. 🪟 **Window Auto-Detect**: Hover over any open window to automatically detect and highlight its exact borders—click to capture and search.
+4. 🔲 **Element Auto-Detect**: Automatically snaps to buttons, images, cards, or paragraphs using native UI Automation.
+
+---
+
+## ✨ Features
+
+- **⭕ Interactive Spotlight Cutout**: Dims the entire screen with a precision reticle cursor. Selected areas are illuminated in full brightness.
+- **🌐 Multi-Engine Support**: Switch seamlessly between Google Lens (default), Bing Visual Search, Yandex Images, TinEye, Baidu, or open all engines simultaneously in tabs.
 - **⚡ Fast, Free & Ephemeral**: Zero API keys or paid accounts required. Uses resilient multi-host ephemeral image sharing with automatic failover.
 - **📋 Clipboard & Full Screen Search**: Search images directly from your clipboard or capture the entire screen with dedicated commands.
 - **💻 Cross-Platform**: Native interactive overlay on Windows and native interactive selection on macOS.
@@ -33,9 +41,20 @@
 
 | Command | Description |
 | :--- | :--- |
-| **Circle Screen to Search** | Dims the screen with a precision reticle cursor, letting you freehand circle any area to search visually. |
+| **Circle Screen to Search** | Dims screen, displays 4 switchable capture modes (Freeform, Rect, Window, Element), and searches the selected area. |
 | **Search Clipboard Image** | Instantly performs a visual search on whichever image or screenshot is currently in your clipboard. |
 | **Search Full Screen** | Captures the entire display and launches visual search results in your default browser. |
+
+---
+
+## ⌨️ Shortcuts During Selection Overlay
+
+| Key | Action |
+| :--- | :--- |
+| `Alt` / `Tab` / `Space` | Cycle through capture modes |
+| `1`, `2`, `3`, `4` | Select **Freeform**, **Rectangle**, **Window**, or **Element** mode directly |
+| `Left Click / Drag` | Draw freehand circle, drag rectangle, or snap-select window/element |
+| `Esc` | Cancel and exit |
 
 ---
 
@@ -49,19 +68,6 @@ In Raycast, go to **Settings** $\rightarrow$ **Extensions** $\rightarrow$ **Circ
 - **TinEye Reverse Search**
 - **Baidu Visual Search**
 - **All Engines** *(Opens results in separate browser tabs simultaneously)*
-
----
-
-## ⌨️ Recommended Hotkey Setup
-
-For the fastest experience, assign a global hotkey to **Circle Screen to Search** in Raycast:
-
-1. Open **Raycast Settings** (`Cmd + ,` or `Ctrl + ,`).
-2. Go to the **Extensions** tab.
-3. Search for **Circle to Search**.
-4. Set a hotkey for **Circle Screen to Search** (e.g. `Ctrl + Shift + S` or `Cmd + Shift + S`).
-
-Now you can circle and search anything on your screen with a single keystroke from any application!
 
 ---
 
